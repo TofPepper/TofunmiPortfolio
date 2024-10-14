@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#imageone{
+    border-radius: 100px;
+    display: inline;
+    margin-left: 50%;
+    position: relative;
+}
+
+#imagetwo{
+    display: none;
+}
+
+header{
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #243642;
+    color: #F2E5BF;
+}
+
+.hthree{
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.8rem;
+    margin-top: -5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navlinks{
+    margin: 10px;
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    padding: 20px 15px;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: #F2E5BF;
+}
+
+.navlist li a:hover{
+    text-decoration: none;
+    color: #DA8359;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    height: 50vh;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.circle-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f1f1f1; 
+}
+
+#homeParagraph{
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.8rem;
+}
+
+span{
+    font-weight: bold;
+    font-size: 25px;
+    color: #DA8359;
+}
+
+.main-container{
+    display: flex;
+    gap: 18px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2;
+}
+
+.main-content{
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    color: #F2E5BF;
+}
+
+.main-content p{
+    text-align: left;
+    line-height: 1.8rem;
+}
+
+.sidebar{
+    flex: 1;
+    padding: 25px;
+    border-radius: 5px;
+    color: #F2E5BF;
+}
+
+.sidebar p{
+    text-align: left;
+    line-height: 1.8rem;
+}
+
+#asideparagraph a{
+    text-decoration: none;
+    color: #DA8359;
+}
+
+#asideparagraph a:hover{
+    text-decoration: underline;
+    color: #F2E5BF;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.content {
+    background-color: #243642;
+    color: #E2F1E7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form {
+    background-color: #243642;
+    color: #F2E5BF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    box-sizing: border-box;
+}
+
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body h3{
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: overline;
+}
+
+.project-body{
+    min-height: 100vh;
+}
+
+
+form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #629584;
+    color: #DA8359;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #3D5B59;
+}
+
+body{
+    background-color: #257180;
+    color: #F2E5BF;
+}
+
+.footer {
+    background-color: #629584;
+    color: #F2E5BF;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 16px;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #DA8359;
+}
+  
+  
+
+@media(max-width:768px){
+    .hthree{
+        font-size: 16px;
+        line-height: 1.2rem;
+    }
+    .navlist{
+        padding: 10px 8px;
+        gap: 10px;
+    }
+    .navlist li{
+        text-decoration: none;
+        font-size: 10px;
+    }
+    header{
+        padding: 9px;
+    }
+    #homeParagraph{
+        max-width: 800px;
+        line-height: 1.8rem;
+    }
+    span{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .box{
+        grid-template-columns: 1fr;
+    }
+    .content{
+        font-size: 0.9rem;
+    }
+    .footer{
+        padding: 15px;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+    .social-media a{
+        font-size: 12px;
+    }
+}
