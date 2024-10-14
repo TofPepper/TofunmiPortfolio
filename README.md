@@ -1,5 +1,5 @@
 # TofunmiPortfolio
-A junior software portfolio
+A junior software enginer's portfolio
 I am an aspiring Softwware Engineer and Graphic Designer. I have a good knowledge of HTML, CSS, JavaScript, a basic understanding of Node.js and HTTP. 
 
 
